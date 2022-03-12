@@ -1,0 +1,61 @@
+body {
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+}
+
+.heading {
+    width: 100%;
+    text-align: left;
+    background-color: darkslateblue;
+}
+
+h2 {
+    display: inline;
+}
+
+.heading button {
+    float: right;
+    border: 3px ridge white;
+    border-radius: 20px;
+}
+
+#start {
+    background-color: darkblue;
+    font-size: 22px;
+}
+
+#status {
+    background-color: blue;
+    font-size: 22px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: indigo;
+    bottom: 0;
+    width: 100%;
+    background-color: dodgerblue;
+    line-height: 3;
+    text-align: center;
+    height: 30px;
+}
+
+#restart {
+    background-color: cornflowerblue;
+    font-size: 22px
+}
+
+.modal-dialog {
+    width: 80%;
+}
+
+.modal-body {
+    text-align: left;
+    font-size: medium;
+}
+
+#canvas {
+    border: 10px solid rgb(255, 255, 255);
+
+}

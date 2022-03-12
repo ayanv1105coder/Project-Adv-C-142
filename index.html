@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background="background1.jpg">
+        <center>
+            <div class="btn btn-info heading">
+                <h2 title="I Am The Heading!"><b>AI PING PONG GAME</b></h2>
+                <h5 title="I Am The Note!">Click The Instructions Button To See How To Play The AI PINGPONG GAME</h5>
+                <button class="btn btn-primary" title="Cick Me To See How To Play This Game!" data-toggle="modal" data-target="#myModal"><b>Instructions ℹ️</b></button>
+            </div>
+                <br><br>
+                    <button class="btn btn-primary" onclick="startGame()" id="start" title="Click Me To Start The Game!"><b>Play Game 🎮🕹️</b></button>
+                <br>
+                    <h3 id="status" class="btn btn-warning" title="I Show The Status Of The Game!"><b>Status 🔵🟣⚫</b></h3>
+                <br><br>
+                    <div id="canvas" title="I Am The Game/Canvas"></div>
+                    <div class="copy_right_footer" title="Thanks To Prashanth Shulka!">
+                        Thanks To Prashanth Shulka - <a href="https://github.com/prashantlv" target="_blank">Visit Prashanth's Github Now!</a> || Game Credit : PingPong
+                    </div>
+                    <button id="restart" onclick="restart()" title="Click Me To Restart The Game!" class="btn btn-primary">Restart The Game 🔄</button>
+                <br><br>
+
+                <div id="myModal" class="modal fade">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button class="close" data-dismiss="modal">&times;</button>
+                          <h4>Instructions ℹ️ :</h4>
+                        </div>
+        
+                        <div class="modal-body">
+                            1) First, go into a mcomfortable and easy sitting position.
+                            <br>
+                            2) After that, Be at least 3 or 4 feet away form your device.
+                            <br>
+                            3) Then, keep your device as straight as you can.
+                            <br>
+                            4) After that, let your camera load (we recommend using WIFI).
+                            <br>
+                            5) Afterwards, move your right wrist in an acsending and decsending manner.
+                            <br>
+                            6) Once you do that, a red dot should appear on your wrist.
+                            <br>
+                            7) Next, press the start game button.
+                            <br>
+                            8) The red paddle is yours and it should move as per the movement of your right wrist.
+                            <br>
+                            9) The first to reach 5 points wins!
+                            <br>
+                            10) If the computer wins then reload the page (laptop/computer/PC) or press the reload button (mobile/tablet/Ipad).
+                            <br><br>
+                            
+                            GOOD LUCK...
+                            <br>
+                            AND HAVE FUN!!!
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        </center>
+    </body>
+</html>
